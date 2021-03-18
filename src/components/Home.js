@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
   return (
     <section className="hero is-fullheight-with-navbar is-info" 
       style= {{

@@ -1,5 +1,5 @@
 export const getAccessKey = () => {
-  return 'CIMyuFiL'
+  return process.env.REACT_APP_API_KEY
 }
 
 export const languageSelected = () => {
