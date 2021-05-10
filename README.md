@@ -9,7 +9,7 @@ This was my second project for the Software Engineering Immersive Course at Gene
 ### Deployed version
 https://virtual-rijksmuseum.netlify.app/
 
-![](rijksmuseum.gif)
+![](src/assets/rijksmuseum.gif)
 
 
 ### Project Brief
@@ -66,7 +66,7 @@ When the user clicks on any of the collections they are redirected to a new page
 ```
 
 The user path continues when a user clicks on an image and they will be redirected to a new page with the full size picture and more detail about the image. When the user clicks on the ‘i’ on the left, a popup with detailed information about the artwork appears. We also included a toggle in the navbar where users could choose the language. We were able to include this feature as the API had endpoints for both Dutch and English content.
-![](language.gif)
+![](src/assets/language.gif)
 
 One feature we really wanted to implement was text to speech. When the user is viewing the information of a piece of art they can click the audio button and the text would be read by using `speechSynthesis`. It was a big win when we figured out how to do this but one of the issues was that we had to figure out how to stop it. We created a toggle onClick that would `.cancel` or `.speak` based on if the audio was playing.
 ```
@@ -80,7 +80,7 @@ To allow users to choose what they wanted to see we implemented a feature called
 
 The chosen data from the form was then stored in the `params` and included in the API request for the artwork overview page.
 
-![](create.gif)
+![](src/assets/create.gif)
 
 ### Know errors or bugs
 - If too many parameters are chosen on the create your own the page doesn’t show any artwork
